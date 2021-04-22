@@ -1,0 +1,69 @@
+#include<iostream>
+using namespace std; 
+
+class list { 
+
+	int size = 0;
+#define capacity 5
+
+	int list[capacity];
+	
+	int top = 0;
+	
+public:
+	int get(int a) 
+  if (size == 0) {
+			cout << "the list is empty"<<endl;
+			return 0;
+		}
+    else if (a < 0 || a >= size) {
+				cout << "you can not add iteam" << endl;
+				return list[size - 1];
+			}
+      else 
+      {
+          return list[a]
+       }
+   }
+      int pushback(int val) {
+		if (size == capacity) {
+			cout << "list is empty" << endl;
+		}
+		else {
+			top++;
+			return list[top]=val;
+		}
+    
+    
+    
+    }
+	int size() {
+		return size;
+	}
+	int remove() {
+		if (size == 0) {
+			cout << "the list is empty" << endl;
+			return 0;
+		}
+		else {
+			while (size != 0) {
+				top--;
+				return 0;
+			}
+		}
+
+int main() {
+	
+
+	
+	return 0;
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
