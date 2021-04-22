@@ -1,0 +1,35 @@
+#include <iostream> 
+using namespace std; 
+void permute (string s & int r & int e );
+string s;
+cout << " Enter a string:"; 
+cin >> s;
+cout << " the permutation are :" ;
+permute (s);
+return 0;
+void permute (string&s){
+permute (s ,0,int r , int e )
+}
+{
+if ( r==e)
+cout<<s<<endl;
+else 
+{
+for ( int i = r , i <= e , i++ )
+ { 
+            swap(s[r], x[i]); 
+            permute(s, r+1, e); 
+            swap(s[r], s[i]); 
+        } 
+        }
+        };
+        int main() 
+{ 
+    string w = "ABC"; 
+    int m = a.size(); 
+    permute(a, 0, m-1); 
+    return 0; 
+}
+
+
+
